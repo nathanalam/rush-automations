@@ -11,6 +11,11 @@ const apps = [
     description: "Cloud enabled diagramming",
     url: "https://draw.rush-automation.com/",
   },
+  {
+    name: "Lullaby",
+    description: "Intelligent audio from multiple files",
+    url: "https://lullaby.rush-automation.com/",
+  },
 ];
 
 const HeroSection = () => {
@@ -37,7 +42,7 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
           {apps.map((app) => (
             <a
               key={app.name}

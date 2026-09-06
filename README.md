@@ -102,6 +102,7 @@ Setup:
 This is the main identity and billing hub for the Rush workplace productivity suite. It links to:
 - Tribe Platform (messages/credits)
 - Drive Draw (Google-linked drawings, AI interaction at cost + 20%)
+- Lullaby (multi-file MP3 generation for intelligent audio playback)
 
 Shared WorkOS auth: users in one app are users in all. Credits are user-level, priced at $10 per 1000.
 

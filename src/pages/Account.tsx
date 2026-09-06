@@ -18,6 +18,7 @@ export default function Account() {
             <p><strong>Rate:</strong> $10 per 1000 credits</p>
             <p>Tribe messages: 100 per credit. AI summary/search: cost + 20%.</p>
             <p>Drive Draw AI: cost + 20%.</p>
+            <p>Lullaby: multi-file MP3 generation for intelligent audio playback.</p>
           </CardContent>
         </Card>
         <Card>
@@ -36,6 +37,7 @@ export default function Account() {
         <Button asChild><Link to="/">Back to Home</Link></Button>
         <Button asChild variant="outline"><a href="https://tribe-platform.netlify.app">Tribe</a></Button>
         <Button asChild variant="outline"><a href="https://drive-draw.netlify.app">Drive Draw</a></Button>
+        <Button asChild variant="outline"><a href="https://lullaby.rush-automation.com">Lullaby</a></Button>
       </div>
     </div>
   );
